@@ -1,4 +1,4 @@
-import 'package:ecommerce/screens/home_screen.dart';
+import 'package:ecommerce/screens/main_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
         textTheme: GoogleFonts.mulishTextTheme(),
       ),
-      home: HomeScreen(),
+      home: const MainScreen(),
     );
   }
 }
